@@ -1,0 +1,117 @@
+/* fonts */
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+.kaushan-script-regular {
+    font-family: "Kaushan Script", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* header styling */
+
+*, html {
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+    transition: 1s;
+}
+
+.HeadingBanner {
+    background-image: url("backgroundImage5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: mediumseagreen; */
+    height: 55%;
+    width: 100%;
+    align-content: center;
+}
+
+.HeadingBanner h1 {
+    margin: auto;
+    width: fit-content;
+    color: black;
+    font-size: 40px;
+}
+
+#topNav {
+    transition: 1s;
+}
+
+.topNav {
+    width: 100%;
+    height: 10%;
+    background-color: transparent;
+    color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.topnav td {
+    padding-top:10px;
+    width: 14%;
+    font-size: 16px;
+    color: black;
+}
+
+.topnav td a {
+    width: fit-content;
+    cursor: pointer;
+    text-align: left;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.topnav td a:hover{
+    color:blue;
+    font-weight: bolder;
+    transition: 0s;
+}
+
+#nav1 {
+    font-size: 25px;
+    padding-left: 20px;
+    width: 55%;
+}
+
+#nav2 {
+    width: 8%;
+}
+
+#nav3 {
+    width: 11%;
+}
+#nav5 {
+    width: 3%;
+    padding-right: 20px;
+}
+
+.material-icons {
+    font-size:20px !important;
+}
+
+
+/* page-specific styling */
+
+#nav1 {
+    font-weight: bold;
+}
+
+#nav2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.test {
+    display: block;
+    height: 1000px;
+    width: 100%;
+    background-color: #a8d5e5;
+}
+
